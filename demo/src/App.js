@@ -1,12 +1,11 @@
-
-import './App.css';
-
+import React from 'React'
+import Portfolio from '.Components/Portfolio'
 function App() {
   return (
     <div className="App">
-  <h1>hello</h1>
+      
+      <Portfolio />
     </div>
-  );
+  )
 }
-
 export default App;
